@@ -1,0 +1,1 @@
+add_executable(NoOfPalindromes_Easy NoOfPalindromes.cpp)

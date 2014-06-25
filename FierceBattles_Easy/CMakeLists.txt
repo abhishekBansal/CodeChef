@@ -1,0 +1,1 @@
+add_executable(FierceBattles_Easy FierceBattles.cpp)

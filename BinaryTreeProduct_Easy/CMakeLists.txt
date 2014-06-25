@@ -1,0 +1,1 @@
+add_executable(BinaryTreeProduct_Easy BinaryTreeProduct.cpp)
