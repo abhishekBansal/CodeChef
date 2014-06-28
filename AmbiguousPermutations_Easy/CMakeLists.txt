@@ -1,0 +1,1 @@
+add_executable(AmbiguousPermutations_Easy AmbiguousPermutations.cpp)

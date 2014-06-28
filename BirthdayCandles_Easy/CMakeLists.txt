@@ -1,0 +1,1 @@
+add_executable(BirthdayCandles_Easy BirthdayCandles.cpp)

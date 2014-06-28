@@ -1,0 +1,1 @@
+add_executable(HolesInText_Easy HolesInText.cpp)

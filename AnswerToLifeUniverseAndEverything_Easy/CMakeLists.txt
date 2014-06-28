@@ -1,0 +1,1 @@
+add_executable(AnswerToLifeUniverseAndEverything_Easy AnswerToLife.cpp)

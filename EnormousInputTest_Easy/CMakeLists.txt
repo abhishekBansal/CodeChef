@@ -1,0 +1,1 @@
+add_executable(EnormousInputTest_Easy EnormousInputTest.cpp)
