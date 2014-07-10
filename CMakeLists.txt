@@ -17,4 +17,7 @@ add_subdirectory(EnormousInputTest_Easy)
 add_subdirectory(HolesInText_Easy) 
 add_subdirectory(AmbiguousPermutations_Easy)
 add_subdirectory(BirthdayCandles_Easy)
+add_subdirectory(ElephantAndCandies_Easy)
+add_subdirectory(NotATriangle_Easy)
+add_subdirectory(NotATriangle2_Easy)
 

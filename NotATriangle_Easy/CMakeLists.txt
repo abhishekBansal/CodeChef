@@ -1,0 +1,1 @@
+add_executable(NotATriangle_Easy NotATriangle.cpp)

@@ -1,1 +1,1 @@
-add_executable(ShortestPathBinaryTree_Easy ShortestPathBinaryTree.cpp)
+add_executable(ShortestPathBinaryTree_Easy ShortestPathBinaryTree.cpp) 

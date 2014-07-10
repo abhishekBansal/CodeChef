@@ -30,20 +30,47 @@ Sample output:
 10
 22
 
+*/
 
+
+/*
+This problem took lot of time :'(
+Here are some tricky test cases
+
+Input
+2 3 4 4 4 3 4 5 6 7
+0 2 2 2 4 1 3 6 7 3
+0 2 2 2 4 6 3 6 7 3
+0 2 2 1 4 6 3 6 7 3
+0 0 1 2 3 4 5 6 7 8
+2 1 1 4 0 6 3 2 2 2
+0 1 1 1 1 1 1 1 1 1
+2 2 1 2 1 1 3 1 1 1
+6 3 3 4 3 3 2 3 3 3
+6 3 3 4 3 2 2 3 3 3
+2 3 3 4 3 2 2 3 3 3
+
+Output
+1000
+10
+10
+10
+1
+4
+10
+22
+666
+555
+555
 */
 
 #include <iostream>
 #include <stdio.h>
 
-
 #define TEST 1
 
-// not getting any logic :(.. lets see if we can get it done before lunch..
-
-// ok got something lets try.. its half an hour for lunch now
-
 int candleCount[10];
+
 int main()
 {
 #if TEST
@@ -74,7 +101,7 @@ int main()
         while(1)
         {
             int min = candleCount[0];
-            int minCandleNo = 0;
+            int minCandleNo = -1;
             for(int i=0; i < 10; i++)
             {
                 if(candleCount[i] < min)
@@ -84,7 +111,7 @@ int main()
             }
 
             // find first candle with this count
-            for(int i=0; i < 10; i++)
+            for(int i=1; i < 10; i++)
             {
                 if(candleCount[i] == min)
                 {
@@ -94,7 +121,7 @@ int main()
             }
 
             // if we have minimum candles of no 0 then handle it differently
-            if(minCandleNo == 0)
+            if(minCandleNo == -1)  // -1 value indicates that candle with no 0 was having min count and it was the only candle with that count
             {
                 // check if there is any other zero, if there is then thats our answer otherwise
                 // answer is 1*0
@@ -114,7 +141,7 @@ int main()
                 if(!zeroFound)
                 {
                     printf("1");
-                    for(int i = 0; i < zeroNo; i++)
+                    for(int i = 0; i <= zeroNo; i++)
                         printf("0");
 
                     printf("\n");
