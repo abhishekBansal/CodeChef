@@ -1,0 +1,1 @@
+add_executable(ElephantAndLemonade_Easy ElephantAndLemonade.cpp) 
