@@ -83,8 +83,13 @@ As the village's population guess was 4, the answer is therefore incorrect.
 
 #define TEST 1
 
-char alphabets[26];
-char ques[315];
+// ok so i had to see editorial and then other links to get what this guy want to ask :(
+// m just gonna use CCP gain and close this quickly :-/
+// here are my references
+// Editorial : http://discuss.codechef.com/questions/6377/clmbstrs-editorial
+// Always awesome GeekForGeeks : http://www.geeksforgeeks.org/program-for-nth-fibonacci-number/
+// Fast Multiplication: http://www.programminglogic.com/fast-exponentiation-algorithms/
+// Mathematical Explanation of Logic : http://fusharblog.com/solving-linear-recurrence-for-programming-contest/
 
 int main()
 {
@@ -104,8 +109,6 @@ int main()
     getchar();
     while (0 < nTC)
     {
-        
-
         --nTC;
     }
     return 0;
